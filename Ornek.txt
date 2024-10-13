@@ -1,0 +1,8 @@
+put 1,r5
+put 0,r1
+put 10,r2
+jmpe r1,r2,8
+prn r1
+add r5,r1
+jmpu 4
+halt
